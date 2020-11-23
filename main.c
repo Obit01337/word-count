@@ -46,6 +46,7 @@ int main()
     for (int i = 0; i < num_str; ++i)
         free(text[i]);
     free(text);
+    printf_s("\n");
     getchar();
     return 0;
 }
